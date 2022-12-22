@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- bootstrap lib -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <title>Apple</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img src="/Images/apple.png" alt="logo" width="20"
+            /></a>
+          </li>
+          <li>
+            <a href="/store.html">Store</a>
+          </li>
+          <li>
+            <a href="/mac.html">Mac</a>
+          </li>
+          <li>
+            <a href="/iPad.html">iPad</a>
+          </li>
+          <li>
+            <a href="/iPhone.html">iPhone</a>
+          </li>
+          <li>
+            <a href="/watch.html">Watch</a>
+          </li>
+          <li>
+            <a href="/Airpods.html">AirPods</a>
+          </li>
+          <li>
+            <a href="#">TV & Home</a>
+          </li>
+          <li>
+            <a href="#">Only on Apple</a>
+          </li>
+          <li>
+            <a href="#">Accessories</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+          <li>
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="white"
+                class="bi bi-bag"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                /></svg            ></a>
+          </li>
+
+          <li>
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="white"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                /></svg            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="store d-flex ">
+        <div class="love ">
+          <h2>
+            Store. <span>The best way to buy the <br>  products you love.</span>
+          </h2>
+        </div>
+        <div class="specialist ">
+          <div class="shop d-flex">
+            <img
+              class="px-2"
+              src="/Images/store-chat-specialist-icon-202208.jpg"
+              alt="specialist"
+              height="40"
+            />
+            <div class="need">
+              <p>
+                <strong>Need shopping help?</strong>
+                <br />
+                <a href="">Ask a Specialist</a>
+              </p>
+            </div>
+          </div>
+          <div class="visit d-flex">
+            <img
+              src="/Images/chat.PNG"
+              alt="only-at-apple"
+              width="40"
+              height="40"
+              class="mx-2"
+            />
+            <div class="help. my-2">
+              <p>
+                <strong>Visit an Apple Store</strong>
+                <br />
+                <a href="">Find one near you ></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<section id="products">
+      <div class="scrolling-wrapper">
+        <div class="arrow-container-left">
+          <button class="arrow-2" onclick="leftScroll()">
+            <i class="fa fa-angle-left"></i>
+          </button>
+        </div>
+       
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/mac-nav-202203.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">Mac</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/iphone-nav-202209_GEO_US.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">iPhone</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/13-ipad-nav-202108.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">iPad</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/13-watch-nav-202209.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">Apple Watch</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/airpods-nav-202209.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">AirPods</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/airtags-nav-202108.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">AirTag</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/appletv-nav-202108.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">Apple TV</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/homepod-nav-202110.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">HomePod mini</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img src="/Images/accessories-nav-202209.png" alt="" />
+          </div>
+          <div class="product-info"><a href="">Accessories</a></div>
+        </div>
+        <div class="card">
+          <div class="product-img">
+            <img
+              src="/Images/holiday-giftcards-asit-agc-nav-202111.png"
+              alt=""
+            />
+          </div>
+          <div class="product-info"><a href="">Apple Gift Card</a></div>
+        </div>
+
+        <div class="arrow-container-right">
+          <button class="arrow-2" onclick="rightScroll()">
+            <i class="fa fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest">
+      <div class="whats-new">
+        <h5>The Latest. <span>Take a look at what's new, right now.</span></h5>
+        
+        <div class="scrolling-wrapper">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-iphone-14-pro-202209.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span">IPHONE 14 PRO</span>
+              <h5>Pro. Beyond.</h5>
+              <p class="text-white">
+                From $999 or $41.62/mo. for 24 mo.
+                <br />
+                before trade‑in*
+              </p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-watch-s8-202209.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span">APPLE WATCH SERIES 8</span>
+              <h5>A healthy leap ahead</h5>
+              <p class="text-white">From $939 or $16.62/mo. for 24 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-iphone-14-202209_GEO_US.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span text-black">IPHONE 14</span>
+              <h5 class="text-black">Big and bigger.</h5>
+              <p>
+                From $799.00 or $33.29/mo. for 24 mo.
+                <br />
+                before trade‑in*
+              </p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-watch-ultra-202209.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span text-black">APPLE WATCH ULTRA</span>
+              <h5 class="text-black">Adventure awaits.</h5>
+              <p>From $799 or $33.29/mo. for 24 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-airpods-pro-202209.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span">AIRPODS PRO (2ND GENERATION)</span>
+              <h5>Rebuilt from the sound</h5>
+              <p class="text-white" >$249.00 or $41.50/mo. for 6 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-watch-se-202209.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span text-black">APPLE WATCH SE</span>
+              <h5 class="text-black">A great deal to love.</h5>
+              <p>From $249 or $10.37/mo. for 24 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-macbook-air-202206.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span text-black">MACBOOK AIR WITH M2 CHIP </span>
+              <h5 class="text-black">Dont take it lightly.</h5>
+              <p>From $1199 or $99.91/mo. for 12 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-macbook-pro-202206.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span">MACBOOK PRO 13"</span>
+              <h5>Pro anywhere.</h5>
+              <p class="text-white">From $1299 or $108.25/mo. for 12 mo.</p>
+            </div>
+          </div>
+          <div class="card text-white new">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-ipad-air-202203.jpg"
+              alt=""
+            />
+            <div class="card-img-overlay">
+              <span class="span">IPAD AIR</span>
+              <h5>Light.Bright.Full of might.</h5>
+              <p class="text-white">From $599 or $49.91/mo. for 12 mo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-container-right">
+          <button class="arrow-2" onclick="rightScroll()">
+            <i class="fa fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+      <section class="help">
+        <h5>Help is here. <span>Whenever and however you need it.</span></h5>
+        <div class="row-help">
+          <div class="card col-lg-3">
+            <img src="/Images/store-card-50-specialist-202208.jpg" alt="" />
+            <div class="card-img-overlay">
+              <p>
+                Shop one on one with a <br />
+                Specialist. Online or in store.
+              </p>
+            </div>
+          </div>
+          <div class="deck col-lg-2 d-flex flex-column">
+            <div class="card col-lg-4">
+              <img src="/Images/store-card-25-apps-202108.jpg" alt="" />
+              <div class="card-img-overlay">
+                <p>
+                  Get to know your new device<br />
+                  with a free Personal Session.
+                </p>
+              </div>
+            </div>
+            <div class="card col-lg-4">
+              <img src="/Images/store-card-25-genius-202108.jpg" alt="" />
+              <div class="card-img-overlay">
+                <p>
+                  Get expert service<br />and support at the <br />Genius Bar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="difference">
+        <h5>
+          The Apple Store difference.
+          <span>Even more reasons to shop with us.</span>
+        </h5>
+
+        <div class="scrolling-wrapper d-flex">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/delivery.PNG" alt="van" class="card-img-top" />
+            <p class="card-text-one">
+              Enjoy
+              <span
+                >two-hour <br />
+                delivery</span
+              >
+              from an Apple <br />
+              Store, <span>free delivery</span>, or <br />
+              <span>easy pickup.</span>
+            </p>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/trade-in.PNG" alt="trade" class="card-img-top" />
+            <p class="card-text-two">
+              <span
+                >Trade in your current <br />
+                device.</span
+              >
+              Get credit <br />
+              toward a new one.
+            </p>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/card.PNG" alt="card" class="card-img-top" />
+            <p class="card-text-three">
+              Pay up in full
+              <span
+                >or pay over <br />
+                time.</span
+              >
+              Your choice.
+            </p>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/smile.PNG" alt="smile" class="card-img-top" />
+            <p class="card-text-four">
+              Make them yours. <br />
+              <span>Engrave a mix of emoji, </span><br />
+              names and numbers <br />
+              for free.
+            </p>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/chop.PNG" alt="apple" class="card-img-top" />
+            <p class="card-text-five">
+              <span>Customize</span> your Mac <br />
+              and create your own <br />
+              style of Apple Watch.
+            </p>
+          </div>
+          <div class="card-body align-left" style="max-width: 18rem">
+            <img src="/Images/gift.PNG" alt="gift" class="card-img-top" />
+            <p class="card-text-six">
+              Add to the excitement <br />
+              with
+              <span
+                >special gift <br />
+                wrapping.</span
+              >
+            </p>
+          </div>
+          <div class="arrow-container-right">
+            <button class="arrow-2" onclick="rightScroll()">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="Accessories">
+        <h5>
+          Accessories.
+          <span
+            >Essentials that pair perfectly with your favorite devices.</span
+          >
+        </h5>
+        <div class="scrolling-wrapper d-flex">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card new"  style="min-width: 35%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-accessories-seasonal-202209.jpg"
+              alt=""
+              height="500px"
+            />
+            <div class="card-img-overlay access">
+              <h5 class="mt-3">In with the new.</h5>
+              <p class="my-2">
+                Discover fresh new colors for your favorite <br />
+                accessories.
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="card "  style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 25%">
+            <div class="card-body">
+              <img class="card-img mt-2" src="/Images/MPPJ3.jpg" alt="" />
+              <div class="card-content my-3">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status my-4">
+                  <p class="new">New</p>
+                  <h5>
+                    iPhone 14 Pro Leather Case <br />
+                    with MagSafe - Ink
+                  </h5>
+                  <p class="price mt-4">$59.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="arrow-container-right">
+            <button class="arrow-2" onclick="rightScroll()">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="sound">
+        <h5>
+          Loud and clear.
+          <span
+            >Unparalleled choices for rich, high-quality sound.</span
+          >
+        </h5>
+
+        <div class="scrolling-wrapper d-flex">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card new"  style="min-width: 35%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-applemusic-202112.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access">
+              <h5>Get 6 months of <br> Apple Music free.</h5>
+              <p>
+                Included with purchase of select AirPods <br />
+                and Beats products, and HomePod mini.**
+              </p>
+            </div>
+          </div>
+          <br />
+          <div class="card" style="min-width: 30%" >
+            <div class="card-body">
+              <img class="card-img" src="/Images/MME73.jpg" alt="" />
+              <div class="card-content">
+                
+                <div class="status">
+                  <p class="new">New</p>
+                  <h5>
+                    AirPods Pro (2nd generation)
+                  </h5>
+                  <p class="price mt-3">$249.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 30%">
+            <div class="card-body">
+              <img class="card-img" src="/Images/MQD83.jpg" alt="" />
+              <div class="card-content">
+                
+                <div class="status">
+                  <p class="new">Free Engraving</p>
+                  <h5>
+                    AirPods (3rd generation) with <br />
+                    Lightning Charging Case
+                  </h5>
+                  <p class="price">$169.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 30%">
+            <div class="card-body">
+              <img class="card-img " src="/Images/MJ4X3.jpg" alt="" />
+              <div class="card-content ">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status ">
+                  <p class="new"></p>
+                  <h5>
+                    Beats Studio Buds - True <br />
+                    Wireless Noise Cancelling...
+                  </h5>
+                  <p class="price mt-4">$149.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 30%">
+            <div class="card-body">
+              <img class="card-img " src="/Images/homepod-mini-select-blue-202110.jpg" alt="" />
+              <div class="card-content ">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status">
+                  <p class="new">New</p>
+                  <h5>
+                    HomePod mini - Blue 
+                  </h5>
+                  <p class="price mt-4">$99.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" style="min-width: 30%">
+            <div class="card-body">
+              <img class="card-img" src="/Images/airpods-max-select-silver-202011.jpg" alt="" />
+              <div class="card-content ">
+                <ul>
+                  <li>
+                    <img src="/Images/MPPG3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPH3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPJ3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPK3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                  <li>
+                    <img src="/Images/MPPL3_SW_COLOR.jpg" alt="" width="15px" />
+                  </li>
+                </ul>
+                <div class="status ">
+                  <p class="new">Free Engraving</p>
+                  <h5>
+                    AirPods Max - Silver
+                  <p class="price mt-4">$549.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="arrow-container-right">
+            <button class="arrow-2" onclick="rightScroll()">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </section>
+
+      
+      <section id="experience">
+        <h5>
+          The Apple experience.
+          <span
+            >Do even more with Apple products and services.</span
+          >
+        </h5>
+
+        <div class="scrolling-wrapper d-flex">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-50-subscriptions-202108_GEO_US.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access mt-3">
+              <h5>Six Apple services. One <br> easy subscription.</h5>
+              <p>
+              </p>
+            </div>
+          </div>
+          
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-applecare-202210.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access ">
+              <span>NEW</span>
+              <h5>We've got you covered.</h5>
+              <p>AppleCare+ now comes with unlimited <br> repairs for accidental damage protection.
+              </p>
+            </div>
+          </div>
+
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-50-applepay-202209.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access mt-3">
+              <h5>Discover all the ways to <br> use Apple Pay.</h5>
+              
+            </div>
+          </div>
+
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-50-homekit-202210.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access">
+              <span>HOME</span>
+              <h5>See how one app can <br> control your entire home.</h5>
+              
+            </div>
+          </div>
+
+        
+          <div class="arrow-container-right">
+            <button class="arrow-2" onclick="rightScroll()">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </section>
+
+      <section id="stores">
+        <h5>
+          Special stores.
+          <span
+            > Exclusive savings for businesses, school, and more.</span
+          >
+        </h5>
+
+        <div class="scrolling-wrapper d-flex">
+          <div class="arrow-container-left">
+            <button class="arrow-2" onclick="leftScroll()">
+              <i class="fa fa-angle-left"></i>
+            </button>
+          </div>
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-edu-202108.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access">
+              <p>EDUCATION</p>
+              <h5>Save on Mac or iPad with <br> education pricing. ¹</h5>
+            </div>
+          </div>
+          
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-business-202209.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access">
+              <p>BUSINESS</p>
+              <h5 class="text-white">From enterprise to small <br> business, we'll work with <br> you.¹</h5>
+            </div>
+          </div>
+
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/store-card-40-gov-202108.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access white">
+              <p>GOVERNMENT
+              </p>
+              <h5 class="text-white">Special pricing is available <br>for state, local, and federal <br> agencies.¹</h5>
+            </div>
+          </div>
+
+          <div class="card new"  style="min-width: 40%">
+            <img
+              class="card-img"
+              src="/Images/ipad-card-40-veteran-202210.jpg"
+              alt="applemusic"
+            />
+            <div class="card-img-overlay access">
+              <p>VETERANS AND MILITARY
+              </p>
+              <h5>Active and veteran <br>members may be eligible <br> for exclusive savings.¹</h5>
+          </div>
+        </div>
+
+        <div class="card new"  style="min-width: 40%">
+          <img
+            class="card-img"
+            src="/Images/store-card-40-refurb-202108.jpg"
+            alt="applemusic"
+          />
+          <div class="card-img-overlay access ">
+            <p>CERTIFIED REFURBISHED</p>
+            <h5>Shop refurbished Apple <br> products backed by a <br> one-year warranty</h5>
+          </div>
+        </div>
+        
+          <div class="arrow-container-right">
+            <button class="arrow-2" onclick="rightScroll()">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+        </div>
+
+      </section>
+   
+
+    
+
+      <footer id="footer">
+        <div class="container">
+          <div class="requirements">
+            
+            <h5 class="text-black mb-4">Quick Links</h5>
+            <button type="button" class="btn btn-secondary">Order Status</button>
+            <button type="button" class="btn btn-secondary">Shopping Help</button>
+            <button type="button" class="btn btn-secondary">Returns</button>
+
+            <p> * Pricing for iPhone 14 and iPhone 14 Plus includes a $30 connectivity discount that requires activation with AT&T, T-Mobile, Sprint, or Verizon. Available to qualified customers and requires 24-month installment loan when you select Citizens One or Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple. iPhone activation required with AT&T, T-Mobile, Sprint, or Verizon for purchases made with ACMI at an Apple Store. Subject to credit approval and credit limit. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. Additional Apple Card Monthly Installments terms are in the Apple Card Customer Agreement. Additional iPhone Payments terms are here. ACMI is not available for purchases made online at special storefronts. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount.
+            </p>
+            <p>
+              
+** Offer is available for new subscribers who connect an eligible device to an Apple device running iOS 15 or iPadOS 15 or later, for a limited time only. Offer good for 3 months after eligible device pairing. Plan automatically renews at your region’s price per month until cancelled. No purchase necessary for current owners of eligible devices. Service availability varies by region. Restrictions and other terms apply.
+            </p>
+            <p>◊ Apple Card Monthly Installments (ACMI) is a 0% APR payment option available only in the U.S. to select at checkout for certain Apple products purchased at Apple Store locations, apple.com(Opens in a new window), the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See https://support.apple.com/kb/HT211204(Opens in a new window) for more information about eligible products. Variable APRs for Apple Card other than ACMI range from 13.99% to 24.99% based on creditworthiness. Rates as of October 1, 2022. If you choose the pay-in-full or one-time-payment option for an ACMI-eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement(Opens in a new window) for more information. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&T, Sprint, Verizon, or T-Mobile.</p>
+            <p>
+              † Monthly pricing is available when you select Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple, and is subject to credit approval and credit limit. Financing terms vary by product. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement for more information. ACMI is not available for purchases made online at special storefronts. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount.
+            </p>
+            <p>
+              To get the newest features, make sure your devices are running the
+              latest software version.
+            </p>
+            <p>
+              To access and use all the features of Apple Card, you must add
+              Apple Card to Wallet on an iPhone or iPad with the latest version
+              of iOS or iPadOS. Update to the latest version by going to
+              Settings > General > Software Update. Tap Download and Install.
+            </p>
+            <p>Available for qualifying applicants in the United States.</p>
+            <p>
+              Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City
+              Branch.
+            </p>
+            <p>
+              Learn more about how Apple Card applications are evaluated at
+              support.apple.com/kb/HT209218.
+            </p>
+
+            <hr />
+
+            <div class="row d-flex">
+              <div class="col-lg-2 p-0">
+                <ul>
+                  <strong>Shop and Learn</strong>
+                  <li><a href="">Store</a></li>
+                  <li><a href="">Mac</a></li>
+                  <li><a href="">iPad</a></li>
+                  <li><a href="">iPhone</a></li>
+                  <li><a href="">Watch</a></li>
+                  <li><a href="">AirPods</a></li>
+                  <li><a href="">TV & Home</a></li>
+                  <li><a href="">AirTag</a></li>
+                  <li><a href="">Accessories</a></li>
+                  <li><a href="">Gift Cards</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 mx-3">
+                <ul>
+                  <strong>Services</strong>
+                  <li><a href="/apple-music/">Apple Music</a></li>
+                  <li><a href="/apple-tv-plus/">Apple TV+</a></li>
+                  <li><a href="/apple-fitness-plus/">Apple Fitness+</a></li>
+                  <li><a href="/apple-news/">Apple News+</a></li>
+                  <li><a href="/apple-arcade/">Apple Arcade</a></li>
+                  <li><a href="/icloud/" >iCloud</a></li>
+                  <li><a href="/apple-one/">Apple One</a></li>
+                  <li><a href="/apple-card/">Apple Card</a></li>
+                  <li><a href="/apple-books/">Apple Books</a></li>
+                  <li><a href="/apple-podcasts/">Apple Podcasts</a></li>
+                  <li><a href="/app-store/">App Store</a></li>
+                </ul>
+                <ul>
+                  <strong>Account</strong>
+
+                  <li>
+                    <a href="https://appleid.apple.com/us/"
+                      >Manage Your Apple&nbsp;ID</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/us/shop/goto/account">Apple Store Account</a>
+                  </li>
+                  <li><a href="https://www.icloud.com">iCloud.com</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 mx-3">
+                <ul>
+                  <strong>Apple Store</strong>
+                  <li><a href="/retail/">Find a Store</a></li>
+                  <li><a href="/retail/geniusbar/">Genius Bar</a></li>
+                  <li><a href="/today/">Today at Apple</a></li>
+                  <li><a href="/today/camp/">Apple Camp</a></li>
+                  <li>
+                    <a
+                      href="https://apps.apple.com/us/app/apple-store/id375380948"
+                      >Apple Store App</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/us/shop/goto/special_deals"
+                      >Refurbished and Clearance</a
+                    >
+                  </li>
+                  <li><a href="/us/shop/goto/payment_plan">Financing</a></li>
+                  <li><a href="/us/shop/goto/trade_in">Apple Trade In</a></li>
+                  <li><a href="/us/shop/goto/order/list">Order Status</a></li>
+                  <li><a href="/us/shop/goto/help">Shopping Help</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 mx-3">
+                <ul>
+                  <strong>For Business</strong>
+                  <li><a href="/business/">Apple and Business</a></li>
+                  <li><a href="/retail/business/">Shop for Business</a></li>
+                </ul>
+                <ul>
+                  <strong>For Education</strong>
+
+                  <li><a href="/education/">Apple and Education</a></li>
+                  <li>
+                    <a href="/education/k12/how-to-buy/">Shop for K-12</a>
+                  </li>
+                  <li>
+                    <a href="/us/shop/goto/educationrouting"
+                      >Shop for College</a
+                    >
+                  </li>
+                </ul>
+
+                <ul>
+                  <strong>For Healthcare</strong>
+
+                  <li><a href="/healthcare/">Apple in Healthcare</a></li>
+                  <li>
+                    <a href="/healthcare/apple-watch/"
+                      >Health on Apple&nbsp;Watch</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/healthcare/health-records/"
+                      >Health Records on iPhone</a
+                    >
+                  </li>
+                </ul>
+                <ul>
+                  <strong>For Government</strong>
+                  <li>
+                    <a href="/r/store/government/">Shop for Government</a>
+                  </li>
+                  <li>
+                    <a href="/us/shop/goto/eppstore/veteransandmilitary"
+                      >Shop for Veterans and Military</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-2 mx-3">
+                <ul>
+                  <strong>Apple Values</strong>
+                  <li><a href="/accessibility/">Accessibility</a></li>
+                  <li><a href="/education/connectED/">Education</a></li>
+                  <li><a href="/environment/">Environment</a></li>
+                  <li><a href="/diversity/">Inclusion and Diversity</a></li>
+                  <li><a href="/privacy/">Privacy</a></li>
+                  <li>
+                    <a href="/racial-equity-justice-initiative/"
+                      >Racial Equity and Justice</a
+                    >
+                  </li>
+                  <li>
+                    <a href="/supplier-responsibility/"
+                      >Supplier Responsibility</a
+                    >
+                  </li>
+                </ul>
+                <ul>
+                  <strong>About Apple</strong>
+                  <li><a href="/newsroom/">Newsroom</a></li>
+                  <li><a href="/leadership/">Apple Leadership</a></li>
+                  <li><a href="/careers/us/">Career Opportunities</a></li>
+                  <li><a href="https://investor.apple.com/">Investors</a></li>
+                  <li><a href="/compliance/">Ethics & Compliance</a></li>
+                  <li><a href="/apple-events/">Events</a></li>
+                  <li><a href="/contact/">Contact Apple</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="lower">
+              <p class="m-1">
+                More ways to shop: <a href="">Find an Apple Store</a> or
+                <a href="">other retailer</a> near you. Or call 1-800-MY-APPLE.
+              </p>
+              <hr class="m-1" />
+              <div class="copyright d-flex justify-content-between">
+                <p>Copyright © 2022 Apple Inc. All rights reserved.</p>
+                <div class="quicklinks">
+                  <a href=""> Privacy Policy </a>|
+                  <a href=""> Terms of Use </a>|
+                  <a href=""> Sales and Refunds </a> | <a href=""> Legal </a> |
+                  <a href=""> Site Map </a>
+                </div>
+                <a href="">United States</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      function leftScroll() {
+        const left = document.querySelector(".scrolling-wrapper");
+        left.scrollBy(200, 0);
+      }
+      function rightScroll() {
+        const right = document.querySelector(".scrolling-wrapper");
+        right.scrollBy(-200, 0);
+      }
+    </script>
+  </body>
+</html>
